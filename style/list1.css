@@ -1,0 +1,35 @@
+@import url(navbar.css);
+
+
+.card {
+    margin: 5vmin;
+    display: flex;
+    flex-direction: row;
+    max-width: 200vmin;
+    border: 0;
+    background-color: #696969;
+    color: #fff;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    position: static;
+}
+.card img {
+    width: 40vmin;
+    height: 30vmin;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-section {
+    margin-left: 10vmin;
+    float: right;
+    max-width: 100%;
+}
+
+.text-section .name{
+    font-size: 5vmin;
+}
